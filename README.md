@@ -6,7 +6,7 @@ A set of useful github commands I use on a regular basis
 GITHUB STUFF
 Make a new repo:
 curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
-# Remember replace USER with your username and REPO with your repository/application name!
+Remember replace USER with your username and REPO with your repository/application name!
 Example: curl -u 'ayp1359' https://api.github.com/user/repos -d '{"name":"CodePath-Twitter","description":"CodePath training at FB"}'
 
 git remote add origin git@github.com:USER/REPO.git
