@@ -35,7 +35,7 @@ git rm $(git ls-files --deleted)
 ```
 * Create a .zip file of git:
 ```sh
-git archive --format=zip master^ README >file.zip
+git archive HEAD | gzip > archive.tar.gz
 ```
 
 * Garbage collection (run occasionally to optimize performance)
