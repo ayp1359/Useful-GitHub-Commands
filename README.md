@@ -33,7 +33,7 @@ git push -f origin master
 ```sh
 git rm $(git ls-files --deleted)  
 ```
-* Create a .zip file of git:
+* Create a .tar.gz file of git:
 ```sh
 git archive HEAD | gzip > archive.tar.gz
 ```
