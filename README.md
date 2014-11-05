@@ -36,7 +36,7 @@ git rm $(git ls-files --deleted)
 * Create a .tar.gz file of git:
 ```sh
 git archive HEAD | gzip > archive.tar.gz
-git archive master --format=zip --output=../archive.zip
+git archive master --format=zip --output=./archive.zip
 ```
 
 * Garbage collection (run occasionally to optimize performance)
