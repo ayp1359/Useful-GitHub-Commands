@@ -15,6 +15,11 @@ Remember replace USER with your username and REPO with your repository/applicati
 Example: curl -u 'ayp1359' https://api.github.com/user/repos -d '{"name":"CodePath-Twitter","description":"CodePath training at FB"}'
 ```
 
+* Remove the git in current directory:
+```sh
+rm -rf .git
+```
+
 * To add files:
 ```sh
 git init
