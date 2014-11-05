@@ -33,3 +33,12 @@ git push -f origin master
 ```sh
 git rm $(git ls-files --deleted)  
 ```
+* Create a .zip file of git:
+```sh
+git archive --format=zip master^ README >file.zip
+```
+
+* Garbage collection (run occasionally to optimize performance)
+```sh
+git gc
+```
